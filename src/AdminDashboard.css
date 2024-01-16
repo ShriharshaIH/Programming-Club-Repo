@@ -1,0 +1,61 @@
+/* Add the following styles to your existing App.css or create a new one */
+.admin-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-options label {
+  display: flex;
+  align-items: center;
+}
+
+.admin-options input {
+  margin-left: 5px;
+}
+
+.admin-dashboard {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #881426;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: auto;
+}
+
+#heading{
+color:green;
+font-size: 30px;
+}
+#sheading{
+  font-size: 15px;
+  color: rgb(189, 34, 2);
+}
+.admin-dashboard h2 {
+  text-align: center;
+  color: #333;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.admin-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-form button:hover {
+  background-color: #45a049;
+}
